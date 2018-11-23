@@ -10,6 +10,6 @@ const newTags = ['danielMagical','rafonix','gural',];
 
 const allTags = [].concat(tags, newTags);
 
-div.innerHTML = allTags.join(", #");
+div.innerHTML = allTags.join(", ");
 
 app.appendChild(div);
